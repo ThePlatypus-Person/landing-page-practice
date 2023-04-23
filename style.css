@@ -1,0 +1,171 @@
+/* Note: Import custom font */
+
+body {
+    font-family: roboto, "Times New Roman" ;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header,
+.main,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    padding: 50px 100px 100px 200px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.main-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-image {
+    height: auto;
+    width: 500px;
+    border-radius: 5%;
+}
+
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contents .item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.item p {
+    color: #1F2937;
+    margin: 0;
+    font-size: 18px;
+}
+
+.item img {
+    height: auto;
+    width: 200px;
+    border-radius: 2%;
+}
+
+.quote {
+    background-color: #E5E8EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 200px;
+    gap: 20px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote-word {
+    font-style: italic;
+}
+
+.quote-person {
+    font-size: 30px;
+    font-weight: bold;           
+    align-self: flex-end;
+}
+
+.signup {
+    margin: 0;
+    padding: 100px 100px 100px;
+}
+
+.small-box {
+    background-color: #3882F6;
+    padding: 40px 100px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 10px; 
+}
+
+.small-box h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.small-box p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.small-box button {
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
